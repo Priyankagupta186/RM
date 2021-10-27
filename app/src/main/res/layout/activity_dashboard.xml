@@ -7,18 +7,33 @@
     tools:context=".Dashboard">
 
 
-
     <LinearLayout
         android:id="@+id/home_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        android:onClick="ClickMenu"
+        />
+
+
+
+
+
+
+
+
         <com.denzcoskun.imageslider.ImageSlider
             android:id="@+id/image_slider"
             android:layout_width="match_parent"
-            android:layout_marginTop="80dp"
-            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="300dp"
             app:iss_auto_cycle="true"
             app:iss_delay="0"
             app:iss_period="1000" />
